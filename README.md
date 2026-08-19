@@ -6,10 +6,10 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-- [Link para o código]:
-- ProjetoFinalRag_moelo_gemma4_12b_Regras_Transito.ipynb
-- ProjetoFinalRag_modelo_gemma34b_Regras_Transito.ipynb
 
+- [Link para o código]:https://github.com/fabianaestudoIA/ProjetoFinalPUC
+
+  
 ### Resumo
 
 Resumo do Projeto
