@@ -8,6 +8,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 - [Link para o código]:
 - ProjetoFinalRag_moelo_gemma4_12b_Regras_Transito.ipynb
+- ProjetoFinalRag_modelo_gemma34b_Regras_Transito.ipynb
 
 ### Resumo
 
