@@ -4,9 +4,10 @@
 #### Orientadora: Evelyn Batista  (https://github.com/evysb)
 
 
-Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
+Trabalho apresentado ao curso MASTER em Inteligência Artificial Generativa & Large Language Models da PUC-Rio
+como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "PROJETO FINAL 2025.2".
 
-- Link do Projeto:
+### Link do Projeto:
 - https://github.com/fabianaestudoIA/ProjetoFinalPUC
 
   
@@ -132,4 +133,5 @@ Outro ponto relevante que a análise evidênciou sobre dos dados coletados por m
 
 #### Pontifícia Universidade Católica do Rio de Janeiro
 
-#### Curso de Pós Graduação *Business Intelligence Master*
+#### Curso de Pós Graduação *MASTER em Inteligência Artificial Generativa & Large Language Models da PUC-Rio*
+
