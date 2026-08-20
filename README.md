@@ -1,6 +1,6 @@
 # Projeto Final - RAG: Comparando os modelos Gemma 3 (4B e 12B) executados via Ollama
 
-#### Aluno: Fabiana Viana         (https://github.com/fabianaestudoIA)
+#### Aluno: Fabiana Viana Salmaso        (https://github.com/fabianaestudoIA)
 #### Orientadora: Evelyn Batista  (https://github.com/evysb)
 
 
