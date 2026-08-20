@@ -79,9 +79,19 @@ Essa arquitetura possibilita a construção de sistemas de busca inteligente e g
 
 ### 3. Resultados
 
-Análise Comparativa dos Resultados dos Modelos de Linguagem em Ambiente RAG
+#### Análise Comparativa dos Resultados dos Modelos de Linguagem em Ambiente RAG
 
-Com o objetivo de avaliar o desempenho de dois Modelos de Linguagem de Grande Escala (LLMs) em um cenário de Retrieval-Augmented Generation (RAG), foi conduzido um experimento no qual ambos os modelos responderam ao mesmo conjunto de 10 perguntas. As questões foram elaboradas para exigir a recuperação e interpretação de informações presentes na base de conhecimento utilizada pelo sistema RAG, permitindo observar a capacidade de cada modelo em fundamentar suas respostas em evidências recuperadas.
+Com o objetivo de avaliar o desempenho de dois Modelos de Linguagem de Grande Escala (Large Language Models - LLMs) em um cenário de Retrieval-Augmented Generation (RAG), foi conduzido um experimento no qual ambos os modelos responderam ao mesmo conjunto de 10 perguntas. As questões utilizadas nos testes estão descritas no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", elaborado especificamente para avaliar a capacidade dos modelos em recuperar informações relevantes da base documental e gerar respostas fundamentadas no contexto recuperado.
+
+Durante a execução dos experimentos, cada pergunta foi submetida individualmente a cada modelo, utilizando o mesmo pipeline RAG e a mesma base de conhecimento, garantindo assim condições equivalentes de avaliação. O objetivo foi analisar aspectos como precisão da recuperação, aderência ao contexto fornecido, completude das respostas e capacidade de evitar informações não presentes nos documentos de referência.
+
+As perguntas foram formuladas de modo a exigir que os modelos utilizassem exclusivamente as informações disponíveis na base documental recuperada pelo mecanismo de busca semântica. Como exemplo, uma das questões presentes no arquivo foi:
+
+"Responda usando exclusivamente com base nos conteúdos fornecidos, informe os deveres do condutor."
+
+Esse tipo de pergunta foi projetado para verificar a capacidade do sistema RAG de localizar os trechos mais relevantes nos documentos indexados e fornecer ao modelo de linguagem contexto suficiente para a geração de uma resposta precisa e alinhada às informações disponíveis. Além disso, a restrição explícita de utilizar exclusivamente o conteúdo recuperado permitiu avaliar a ocorrência de alucinações, fenômeno em que o modelo produz informações não fundamentadas na base de conhecimento.
+
+Ao empregar um conjunto padronizado de perguntas, conforme apresentado no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", tornou-se possível realizar uma análise qualitativa entre os modelos avaliados, identificando diferenças de desempenho relacionadas tanto à recuperação de informações quanto à qualidade da resposta gerada no contexto de uma arquitetura RAG. Essa metodologia contribui para a obtenção de resultados mais consistentes e comparáveis, fornecendo evidências concretas sobre a efetividade de cada modelo na utilização do conhecimento disponibilizado pela base documental.
 
 Os resultados indicaram diferenças entre os modelos, especialmente no que se refere à ocorrência de alucinações. Embora ambos tenham demonstrado capacidade de compreender as perguntas e utilizar o contexto fornecido pelo mecanismo de recuperação, o Modelo Gemma 3 (4B) 
 apresentou uma frequência maior de respostas incorretas, evidenciando dificuldades na etapa de seleção e utilização das evidências recuperadas pelo mecanismo RAG.
