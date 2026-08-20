@@ -13,7 +13,7 @@ como pré-requisito para conclusão de curso e obtenção de crédito na discipl
   
 ### Resumo do Projeto
 
-Este Trabalho de Conclusão de Curso (TCC) propõe o desenvolvimento de um assistente inteligente baseado em Inteligência Artificial Generativa e Retrieval-Augmented Generation (RAG) e visa comparar os modelos Gemma 3 (4B e 12B) executados via Ollama 
+Este Trabalho de Conclusão de Curso (TCC) propõe o desenvolvimento de um assistente inteligente baseado em Inteligência Artificial Generativa e Retrieval-Augmented Generation (RAG) e visa comparar os modelos Gemma 3 (4B e 12B) executados via Ollama. 
 O projeto do RAG teve como inspiração a necessidade observada pelos usuários da empresa na qual trabalho, para encontrar informações em um sistema de gestão acadêmica onde reuni vários "Documentos" em PDF sobre regulamentos, contratos, manuais e normas.
 
 Atualmente, os usuários precisam localizar manualmente os documentos e navegar por seu conteúdo para encontrar informações específicas, o que pode demandar tempo e dificultar o acesso rápido às informações desejadas. 
@@ -95,7 +95,7 @@ Ao empregar um conjunto padronizado de perguntas, conforme apresentado no arquiv
 Os resultados indicaram diferenças entre os modelos, especialmente no que se refere à ocorrência de alucinações. Embora ambos tenham demonstrado capacidade de compreender as perguntas e utilizar o contexto fornecido pelo mecanismo de recuperação, o Modelo Gemma 3 (4B) 
 apresentou uma frequência maior de respostas incorretas, evidenciando dificuldades na etapa de seleção e utilização das evidências recuperadas pelo mecanismo RAG.
 
-Por outro lado, o Modelo Gemma 3 (2B) apresentou um comportamento mais consistente e aderente às informações efetivamente recuperadas, demonstrando maior cautela na elaboração das respostas. Quando confrontado com limitações ou lacunas na base de conhecimento, o modelo tendeu a restringir suas respostas ao conteúdo disponível, reduzindo significativamente a inserção de informações incorretas ou especulativas.
+Por outro lado, o Modelo Gemma 3 (12B) apresentou um comportamento mais consistente e aderente às informações efetivamente recuperadas, demonstrando maior cautela na elaboração das respostas. Quando confrontado com limitações ou lacunas na base de conhecimento, o modelo tendeu a restringir suas respostas ao conteúdo disponível, reduzindo significativamente a inserção de informações incorretas ou especulativas.
 
 #### Observabilidade com LangSmith
 
@@ -103,7 +103,7 @@ Por outro lado, o Modelo Gemma 3 (2B) apresentou um comportamento mais consisten
 
 A avaliação do tempo de latência dos modelos foi realizada com o apoio da ferramenta LangSmith, utilizada para monitorar e registrar detalhadamente a execução de cada consulta submetida ao pipeline RAG. A observabilidade fornecida pela plataforma permitiu acompanhar métricas de desempenho em tempo real, incluindo o tempo total necessário para que cada modelo processasse a pergunta, recuperasse o contexto relevante e gerasse a resposta final.
 
-Para a realização da análise, foram submetidas aos modelos  Gemma 3 (4B e 12B) as 10 perguntas descritas no experimento. O tempo de latência de cada interação foi registrado individualmente por meio do LangSmith, possibilitando a obtenção de dados precisos sobre o desempenho de cada modelo. Após a coleta dos resultados, foi calculada a média aritmética dos tempos observados para cada conjunto de respostas. Os registros detalhados das execuções podem ser consultados no "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", na aba LangSmith.
+Para a realização da análise, foram submetidas aos modelos  Gemma 3 (4B e 12B) as 10 perguntas descritas no experimento. O tempo de latência de cada interação foi registrado individualmente por meio do LangSmith, possibilitando a obtenção de dados precisos sobre o desempenho de cada modelo. Após a coleta dos resultados, foi calculada a média aritmética dos tempos observados para cada conjunto de respostas. Os registros podem ser consultados no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", na aba LangSmith.
 
 Os resultados obtidos indicaram que o Modelo Gemma 3 (4B) apresentou um tempo médio de latência de 16,15 segundos, enquanto o Modelo Gemma 3 (12B) registrou uma latência média de 88,77 segundos. Observa-se, portanto, uma diferença significativa entre os modelos, sendo que o segundo levou aproximadamente 5,5 vezes mais tempo para processar e responder às consultas realizadas.
 
@@ -123,7 +123,7 @@ Os resultados obtidos indicam que a qualidade de um sistema baseado em RAG não 
 
 Em síntese, a análise evidencia que, embora ambos os modelos tenham sido capazes de responder à maioria das questões propostas, o Modelo Gemma 3 (4B) apresentou desempenho melhor em termos de precisão, contextualização e confiabilidade das respostas, enquanto o Modelo  Gemma 3 (4B) apresentou maior suscetibilidade à utilização de informações irrelevantes e à falha na identificação de conteúdos existentes na base de conhecimento. Esses resultados reforçam a importância de avaliar não apenas a capacidade generativa dos LLMs, mas também sua eficiência na integração com mecanismos de recuperação de informações em cenários RAG. 
 
-Outro ponto relevante que a análise evidênciou sobre dos dados coletados por meio do LangSmith foi que aumento do número de parâmetros impacta diretamente a latência dos modelos avaliados. Os valores médios obtidos, de 16,15 segundos para o Modelo Gemma 3 (4B) e 88,77 segundos para o Modelo Gemma 3(12B), confirmam a influência do porte do modelo sobre o desempenho computacional da solução RAG, fornecendo subsídios importantes para a escolha do modelo mais adequado de acordo com os requisitos de tempo de resposta e qualidade esperados pela aplicação.
+Outro ponto relevante que a análise evidênciou sobre os dados coletados por meio do LangSmith foi que o aumento do número de parâmetros impacta diretamente a latência dos modelos avaliados. Os valores médios obtidos, de 16,15 segundos para o Modelo Gemma 3 (4B) e 88,77 segundos para o Modelo Gemma 3(12B), confirmam a influência do porte do modelo sobre o desempenho computacional da solução RAG, fornecendo subsídios importantes para a escolha do modelo mais adequado de acordo com os requisitos de tempo de resposta e qualidade esperados pela aplicação.
 
 
 
