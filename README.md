@@ -11,9 +11,7 @@ como pré-requisito para conclusão de curso e obtenção de crédito na discipl
 - https://github.com/fabianaestudoIA/ProjetoFinalPUC
 
   
-### Resumo
-
-Resumo do Projeto
+### Resumo do Projeto
 
 Este Trabalho de Conclusão de Curso (TCC) propõe o desenvolvimento de um assistente inteligente baseado em Inteligência Artificial Generativa e Retrieval-Augmented Generation (RAG) e visa comparar os modelos Gemma 3 (4B e 12B) executados via Ollama 
 O projeto do RAG teve como inspiração a necessidade observada pelos usuários da empresa na qual trabalho, para encontrar informações em um sistema de gestão acadêmica onde reuni vários "Documentos" em PDF sobre regulamentos, contratos, manuais e normas.
