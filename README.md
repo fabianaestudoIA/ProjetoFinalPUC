@@ -134,6 +134,7 @@ apresentou uma frequência maior de respostas incorretas, evidenciando dificulda
 <p align="justify">
 Por outro lado, o Modelo Gemma 3 (12B) apresentou um comportamento mais consistente e aderente às informações efetivamente recuperadas, demonstrando maior cautela na elaboração das respostas. Quando confrontado com limitações ou lacunas na base de conhecimento, o modelo tendeu a restringir suas respostas ao conteúdo disponível, reduzindo significativamente a inserção de informações incorretas ou especulativas.
 </p>
+
 #### Observabilidade com LangSmith
 
 #### Análise do Tempo Médio de Latência
