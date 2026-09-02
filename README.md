@@ -100,7 +100,17 @@ Essa arquitetura possibilita a construção de sistemas de busca inteligente e g
 Com o objetivo de avaliar o desempenho de dois Modelos de Linguagem de Grande Escala (Large Language Models - LLMs) em um cenário de Retrieval-Augmented Generation (RAG), foi conduzido um experimento no qual ambos os modelos responderam ao mesmo conjunto de 10 perguntas. As questões utilizadas nos testes estão descritas no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", elaborado especificamente para avaliar a capacidade dos modelos em recuperar informações relevantes da base documental e gerar respostas fundamentadas no contexto recuperado.
 </p>
 
-####A seguir a listagem das 10 perguntas utilizadas para realizar a análise comparativas entre os modelos Gemma 3 - 4B e 12B
+#### A figura 1 a seguir, apresenta as 10 perguntas utilizadas para realizar a análise comparativas entre os modelos Gemma 3 - 4B e 12B
+
+![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta1.png)
+![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta2.png)
+
+![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta4e5.png)
+![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta6e7.png)
+![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta8.png)
+![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta9.png)
+![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta10.png)                                                                                                                                                                
+                                                        <div align="center">**Figura 1**</div>
 
 
 <p align="justify">
