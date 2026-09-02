@@ -103,7 +103,10 @@ Por outro lado, o Modelo Gemma 3 (12B) apresentou um comportamento mais consiste
 
 A avaliação do tempo de latência dos modelos foi realizada com o apoio da ferramenta LangSmith, utilizada para monitorar e registrar detalhadamente a execução de cada consulta submetida ao pipeline RAG. A observabilidade fornecida pela plataforma permitiu acompanhar métricas de desempenho em tempo real, incluindo o tempo total necessário para que cada modelo processasse a pergunta, recuperasse o contexto relevante e gerasse a resposta final.
 
-Para a realização da análise, foram submetidas aos modelos  Gemma 3 (4B e 12B) as 10 perguntas descritas no experimento. O tempo de latência de cada interação foi registrado individualmente por meio do LangSmith, possibilitando a obtenção de dados precisos sobre o desempenho de cada modelo. Após a coleta dos resultados, foi calculada a média aritmética dos tempos observados para cada conjunto de respostas. Os registros podem ser consultados no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", na aba LangSmith.
+Para a realização da análise, foram submetidas aos modelos  Gemma 3 (4B e 12B) as 10 perguntas descritas no experimento. O tempo de latência de cada interação foi registrado individualmente por meio do LangSmith, possibilitando a obtenção de dados precisos sobre o desempenho de cada modelo. Após a coleta dos resultados, foi calculada a média aritmética dos tempos observados para cada conjunto de respostas. Os resultado podem ser observados na figura 2 e os registros podem ser consultados no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", na aba LangSmith.
+
+
+![Imagem sobre Análise do Tempo Médio de Latência ](images/imagem-tabela-tempo-latencia.jpg)
 
 Os resultados obtidos indicaram que o Modelo Gemma 3 (4B) apresentou um tempo médio de latência de 16,15 segundos, enquanto o Modelo Gemma 3 (12B) registrou uma latência média de 88,77 segundos. Observa-se, portanto, uma diferença significativa entre os modelos, sendo que o segundo levou aproximadamente 5,5 vezes mais tempo para processar e responder às consultas realizadas.
 
