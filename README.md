@@ -25,7 +25,7 @@ Atualmente, os usuários precisam localizar manualmente os documentos e navegar 
 ### 1. Introdução
 
 <p align="justify">
-A empresa onde trabalho, dispões de um sistema de gestão acadêmica onde reuni vários "Documentos" do sistema em formato PDF, incluindo regulamentos, contratos, manuais e normas. O crescente volume de documentos disponibilizados em sistemas de gestão acadêmica torna a busca por informações um processo, muitas vezes, demorado e pouco intuitivo para os usuários.
+A empresa onde trabalho, dispõe de um sistema de gestão acadêmica onde armazena vários "Documentos" do sistema em formato PDF, incluindo regulamentos, contratos, manuais e normas. O crescente volume de documentos disponibilizados em sistemas de gestão acadêmica torna a busca por informações um processo, muitas vezes, demorado e pouco intuitivo para os usuários.
 </p>
 <p align="justify">
 Diante desse cenário, este Trabalho de Conclusão de Curso propõe o desenvolvimento e a avaliação de um Retrieval-Augmented Generation (RAG) capaz de consultar os documentos e fornecer respostas em linguagem natural aos usuários.
