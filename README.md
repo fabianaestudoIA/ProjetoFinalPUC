@@ -99,6 +99,10 @@ Essa arquitetura possibilita a construção de sistemas de busca inteligente e g
 <p align="justify">
 Com o objetivo de avaliar o desempenho de dois Modelos de Linguagem de Grande Escala (Large Language Models - LLMs) em um cenário de Retrieval-Augmented Generation (RAG), foi conduzido um experimento no qual ambos os modelos responderam ao mesmo conjunto de 10 perguntas. As questões utilizadas nos testes estão descritas no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", elaborado especificamente para avaliar a capacidade dos modelos em recuperar informações relevantes da base documental e gerar respostas fundamentadas no contexto recuperado.
 </p>
+
+####A seguir a listagem das 10 perguntas utilizadas para realizar a análise comparativas entre os modelos Gemma 3 - 4B e 12B
+
+
 <p align="justify">
 Durante a execução dos experimentos, cada pergunta foi submetida individualmente a cada modelo, utilizando o mesmo pipeline RAG e a mesma base de conhecimento, garantindo assim condições equivalentes de avaliação. O objetivo foi analisar aspectos como precisão da recuperação, aderência ao contexto fornecido, completude das respostas e capacidade de evitar informações não presentes nos documentos de referência.
 </p>
