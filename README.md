@@ -164,16 +164,16 @@ Os resultados observados demonstram um importante compromisso entre capacidade d
 
 ### 4. Conclusões
 <p align="justify">
-Embora nenhum modelo tenha alcançado desempenho perfeito, o Modelo Gemma 3 (4B) demonstrou maior precisão na identificação das fontes adequadas e melhor capacidade de fundamentar suas respostas nos dados disponibilizados pelo sistema RAG.
+Embora nenhum modelo tenha alcançado desempenho perfeito, o Modelo Gemma 3 (12B) demonstrou maior precisão na identificação das fontes adequadas e melhor capacidade de fundamentar suas respostas nos dados disponibilizados pelo sistema RAG.
 </p>
 <p align="justify">
-Os resultados obtidos indicam que a qualidade de um sistema baseado em RAG não depende exclusivamente do desempenho do modelo de linguagem, mas também de sua capacidade de interpretar corretamente o contexto recuperado e selecionar evidências pertinentes à consulta realizada. Nesse aspecto, o Modelo Gemma 3 (4B) mostrou-se mais robusto e confiável, apresentando menor incidência de respostas incorretas decorrentes de recuperação inadequada de informações e maior aderência ao conhecimento efetivamente disponível na base documental.
+Os resultados obtidos indicam que a qualidade de um sistema baseado em RAG não depende exclusivamente do desempenho do modelo de linguagem, mas também de sua capacidade de interpretar corretamente o contexto recuperado e selecionar evidências pertinentes à consulta realizada. Nesse aspecto, o Modelo Gemma 3 (12B) mostrou-se mais robusto e confiável, apresentando menor incidência de respostas incorretas decorrentes de recuperação inadequada de informações e maior aderência ao conhecimento efetivamente disponível na base documental.
 </p>
 <p align="justify">
-Em síntese, a análise evidencia que, embora ambos os modelos tenham sido capazes de responder à maioria das questões propostas, o Modelo Gemma 3 (4B) apresentou desempenho melhor em termos de precisão, contextualização e confiabilidade das respostas, enquanto o Modelo  Gemma 3 (4B) apresentou maior suscetibilidade à utilização de informações irrelevantes e à falha na identificação de conteúdos existentes na base de conhecimento. Esses resultados reforçam a importância de avaliar não apenas a capacidade generativa dos LLMs, mas também sua eficiência na integração com mecanismos de recuperação de informações em cenários RAG. 
+Em síntese, a análise evidencia que, embora ambos os modelos tenham sido capazes de responder à maioria das questões propostas, o Modelo Gemma 3 (12 B) apresentou desempenho melhor em termos de precisão, contextualização e confiabilidade das respostas, enquanto o Modelo  Gemma 3 (4B) apresentou maior suscetibilidade à utilização de informações irrelevantes e à falha na identificação de conteúdos existentes na base de conhecimento. Esses resultados reforçam a importância de avaliar não apenas a capacidade generativa dos LLMs, mas também sua eficiência na integração com mecanismos de recuperação de informações em cenários RAG. 
 </p>
 <p align="justify">
-Outro ponto relevante que a análise evidênciou sobre os dados coletados por meio do LangSmith foi que o aumento do número de parâmetros impacta diretamente a latência dos modelos avaliados. Os valores médios obtidos, de 16,15 segundos para o Modelo Gemma 3 (4B) e 88,77 segundos para o Modelo Gemma 3(12B), confirmam a influência do porte do modelo sobre o desempenho computacional da solução RAG, fornecendo subsídios importantes para a escolha do modelo mais adequado de acordo com os requisitos de tempo de resposta e qualidade esperados pela aplicação.
+Outro ponto relevante que a análise evidenciou sobre os dados coletados por meio do LangSmith foi que o aumento do número de parâmetros impacta diretamente a latência dos modelos avaliados. Os valores médios obtidos, de 16,15 segundos para o Modelo Gemma 3 (4B) e 88,77 segundos para o Modelo Gemma 3(12B), confirmam a influência do porte do modelo sobre o desempenho computacional da solução RAG, fornecendo subsídios importantes para a escolha do modelo mais adequado de acordo com os requisitos de tempo de resposta e qualidade esperados pela aplicação.
 </p>
 
 
