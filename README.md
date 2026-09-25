@@ -1,4 +1,4 @@
-# Projeto Final - RAG: Comparando os modelos Gemma 3 (4B e 12B) executados via Ollama
+# Projeto Final - RAG: Comparando os modelos Gemma 3:4B e Gemma 4:12B executados via Ollama
 
 #### Aluno: Fabiana Viana Salmaso        (https://github.com/fabianaestudoIA)
 #### Orientadora: Evelyn Batista  (https://github.com/evysb)
@@ -16,7 +16,7 @@ como pré-requisito para conclusão de curso e obtenção de crédito na discipl
 
 <p align="justify">
 
-#### Este Trabalho de Conclusão de Curso (TCC) propõe o desenvolvimento de um assistente inteligente baseado em Inteligência Artificial Generativa e Retrieval-Augmented Generation (RAG) e visa comparar os modelos Gemma 3 (4B e 12B) executados via Ollama.
+#### Este Trabalho de Conclusão de Curso (TCC) propõe o desenvolvimento de um assistente inteligente baseado em Inteligência Artificial Generativa e Retrieval-Augmented Generation (RAG) e visa comparar os modelos Gemma 3:4B e Gemma 4:12B executados via Ollama.
 
 O projeto do RAG teve como inspiração a necessidade observada pelos usuários da empresa na qual trabalho, para encontrar informações em um sistema de gestão acadêmica onde reuni vários "Documentos" em PDF sobre regulamentos, contratos, manuais e normas.
 </p>
@@ -35,7 +35,7 @@ Atualmente, os usuários precisam localizar manualmente os documentos e navegar 
 
 
 
-#### <p align="justify">Diante desse cenário, este Trabalho de Conclusão de Curso propõe o desenvolvimento e a avaliação de um Retrieval-Augmented Generation (RAG) comparando dois modelos Gemma 3 (4B e 12B) executados via Ollama, esta comparação visa analisar e identificar qual modelo é mais eficiente e capaz de consultar os documentos e fornecer respostas em linguagem natural aos usuários.
+#### <p align="justify">Diante desse cenário, este Trabalho de Conclusão de Curso propõe o desenvolvimento e a avaliação de um Retrieval-Augmented Generation (RAG) comparando dois modelos Gemma 3:4B e Gemma 4:12B executados via Ollama, esta comparação visa analisar e identificar qual modelo é mais eficiente e capaz de consultar os documentos e fornecer respostas em linguagem natural aos usuários.
 </p>
 
 <p align="justify">
@@ -46,7 +46,7 @@ Devido ao caráter confidencial das informações corporativas, não foi possív
 #### <p align="justify">A arquitetura adotada foi baseada na técnica Retrieval-Augmented Generation (RAG), que combina recuperação de informações e geração de texto por modelos de linguagem. Nesse modelo, o sistema realiza inicialmente a busca dos trechos mais relevantes nos documentos da base de conhecimento e, em seguida, utiliza essas informações como contexto para a construção da resposta, aumentando a precisão e a confiabilidade dos resultados.
 </p>
 <p align="justify">
-O RAG foi testado com dois modelos, o  Gemma 3 (4B e 12B) executados via Ollama. A avaliação foi realizada por meio de um conjunto padronizado de perguntas aplicadas aos dois modelos, permitindo analisar critérios como precisão das respostas, aderência ao contexto recuperado, capacidade de recuperação das informações e ocorrência de respostas incorretas ou não fundamentadas.
+O RAG foi testado com dois modelos, o  Gemma 3:4B e Gemma 4:12B executados via Ollama. A avaliação foi realizada por meio de um conjunto padronizado de perguntas aplicadas aos dois modelos, permitindo analisar critérios como precisão das respostas, aderência ao contexto recuperado, capacidade de recuperação das informações e ocorrência de respostas incorretas ou não fundamentadas.
 </p>
 
 ### 2. Modelagem
@@ -115,7 +115,7 @@ Essa arquitetura possibilita a construção de sistemas de busca inteligente e g
 #### <p align="justify">Com o objetivo de avaliar o desempenho de dois Modelos de Linguagem de Grande Escala (Large Language Models - LLMs) em um cenário de Retrieval-Augmented Generation (RAG), foi conduzido um experimento no qual ambos os modelos responderam ao mesmo conjunto de 10 perguntas. As questões utilizadas nos testes estão descritas no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", elaborado especificamente para avaliar a capacidade dos modelos em recuperar informações relevantes da base documental e gerar respostas fundamentadas no contexto recuperado.
 </p>
 
-#### A figura 1 a seguir, apresenta as 10 perguntas utilizadas para realizar a análise comparativa entre os modelos Gemma 3 - 4B e 12B
+#### A figura 1 a seguir, apresenta as 10 perguntas utilizadas para realizar a análise comparativa entre os modelos Gemma 3:4B e Gemma 4:12B
 
 ![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta1.png)
 ![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgpergunta2.png)
@@ -147,7 +147,7 @@ Os resultados indicaram diferenças entre os modelos, especialmente no que se re
 apresentou uma frequência maior de respostas incorretas, evidenciando dificuldades na etapa de seleção e utilização das evidências recuperadas pelo mecanismo RAG.
 </p>
 <p align="justify">
-Por outro lado, o Modelo Gemma 3 (12B) apresentou um comportamento mais consistente e aderente às informações efetivamente recuperadas, demonstrando maior cautela na elaboração das respostas. Quando confrontado com limitações ou lacunas na base de conhecimento, o modelo tendeu a restringir suas respostas ao conteúdo disponível, reduzindo significativamente a inserção de informações incorretas ou especulativas.
+Por outro lado, o Modelo Gemma 4 (12B) apresentou um comportamento mais consistente e aderente às informações efetivamente recuperadas, demonstrando maior cautela na elaboração das respostas. Quando confrontado com limitações ou lacunas na base de conhecimento, o modelo tendeu a restringir suas respostas ao conteúdo disponível, reduzindo significativamente a inserção de informações incorretas ou especulativas.
 </p>
 
 #### Observabilidade com LangSmith
@@ -158,7 +158,7 @@ Por outro lado, o Modelo Gemma 3 (12B) apresentou um comportamento mais consiste
 #### <p align="justify">A avaliação do tempo de latência dos modelos foi realizada com o apoio da ferramenta LangSmith, utilizada para monitorar e registrar detalhadamente a execução de cada consulta submetida ao pipeline RAG. A observabilidade fornecida pela plataforma permitiu acompanhar métricas de desempenho em tempo real, incluindo o tempo total necessário para que cada modelo processasse a pergunta, recuperasse o contexto relevante e gerasse a resposta final.
 </p>
 <p align="justify">
-Para a realização da análise, foram submetidas aos modelos  Gemma 3 (4B e 12B) as 10 perguntas descritas no experimento. O tempo de latência de cada interação foi registrado individualmente por meio do LangSmith, possibilitando a obtenção de dados precisos sobre o desempenho de cada modelo. Após a coleta dos resultados, foi calculada a média aritmética dos tempos observados para cada conjunto de respostas. Os resultado podem ser observados na figura 2 e os registros podem ser consultados no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", na aba LangSmith.
+Para a realização da análise, foram submetidas aos modelos  Gemma 3:4B e Gemma 4:12B as 10 perguntas descritas no experimento. O tempo de latência de cada interação foi registrado individualmente por meio do LangSmith, possibilitando a obtenção de dados precisos sobre o desempenho de cada modelo. Após a coleta dos resultados, foi calculada a média aritmética dos tempos observados para cada conjunto de respostas. Os resultado podem ser observados na figura 2 e os registros podem ser consultados no arquivo "analise qualitativa entre os modelos Gemma 3 - 4B e 12B.xlsx", na aba LangSmith.
 </p>
 
 ![Imagem sobre Análise do Tempo Médio de Latência ](https://github.com/fabianaestudoIA/ProjetoFinalPUC/blob/main/imgLatenciaLangSmith.png)
@@ -166,14 +166,14 @@ Para a realização da análise, foram submetidas aos modelos  Gemma 3 (4B e 12B
 
 
   
-#### <p align="justify">Os resultados obtidos indicaram que o Modelo Gemma 3 (4B) apresentou um tempo médio de latência de 16,15 segundos, enquanto o Modelo Gemma 3 (12B) registrou uma latência média de 88,77 segundos. Observa-se, portanto, uma diferença significativa entre os modelos, sendo que o segundo levou aproximadamente 5,5 vezes mais tempo para processar e responder às consultas realizadas.
+#### <p align="justify">Os resultados obtidos indicaram que o Modelo Gemma 3 (4B) apresentou um tempo médio de latência de 16,15 segundos, enquanto o Modelo Gemma 4 (12B) registrou uma latência média de 88,77 segundos. Observa-se, portanto, uma diferença significativa entre os modelos, sendo que o segundo levou aproximadamente 5,5 vezes mais tempo para processar e responder às consultas realizadas.
 </p>
 
   
-#### <p align="justify">Essa diferença de desempenho pode ser explicada, em grande parte, pelas características arquiteturais dos modelos avaliados. O Gemma 3 (12B) possui aproximadamente três vezes mais parâmetros do que versões menores, como o Gemma 3 (4B). Em modelos de linguagem, o número de parâmetros está diretamente relacionado à quantidade de cálculos necessários durante o processo de inferência. Dessa forma, quanto maior o modelo, maior é o volume de dados processados a cada etapa de geração de texto, resultando em maior demanda de recursos computacionais e, consequentemente, em aumento do tempo de resposta.
+#### <p align="justify">Essa diferença de desempenho pode ser explicada, em grande parte, pelas características arquiteturais dos modelos avaliados. O Gemma 4 (12B) possui aproximadamente três vezes mais parâmetros do que versões menores, como o Gemma 3 (4B). Em modelos de linguagem, o número de parâmetros está diretamente relacionado à quantidade de cálculos necessários durante o processo de inferência. Dessa forma, quanto maior o modelo, maior é o volume de dados processados a cada etapa de geração de texto, resultando em maior demanda de recursos computacionais e, consequentemente, em aumento do tempo de resposta.
 </p>
 <p align="justify">
-Além disso, a geração de cada token exige sucessivas operações matemáticas sobre toda a estrutura do modelo. Como o Gemma 3(12B) possui uma quantidade significativamente maior de parâmetros, o tempo necessário para produzir cada token tende a ser superior quando comparado a modelos menores.
+Além disso, a geração de cada token exige sucessivas operações matemáticas sobre toda a estrutura do modelo. Como o Gemma 4(12B) possui uma quantidade significativamente maior de parâmetros, o tempo necessário para produzir cada token tende a ser superior quando comparado a modelos menores.
 </p>
 <p align="justify">
 Os resultados observados demonstram um importante compromisso entre capacidade do modelo e eficiência computacional. Embora modelos maiores possuam potencial para respostas mais elaboradas e maior capacidade de compreensão contextual, eles também apresentam custos computacionais superiores, refletidos em maiores tempos de latência. 
@@ -183,18 +183,18 @@ Os resultados observados demonstram um importante compromisso entre capacidade d
 ### 4. Conclusões
 
   
-#### <p align="justify">Embora nenhum modelo tenha alcançado desempenho perfeito, o Modelo Gemma 3 (12B) demonstrou maior precisão na identificação das fontes adequadas e melhor capacidade de fundamentar suas respostas nos dados disponibilizados pelo sistema RAG.
+#### <p align="justify">Embora nenhum modelo tenha alcançado desempenho perfeito, o Modelo Gemma 4 (12B) demonstrou maior precisão na identificação das fontes adequadas e melhor capacidade de fundamentar suas respostas nos dados disponibilizados pelo sistema RAG.
 </p>
 <p align="justify">
-Os resultados obtidos indicam que a qualidade de um sistema baseado em RAG não depende exclusivamente do desempenho do modelo de linguagem, mas também de sua capacidade de interpretar corretamente o contexto recuperado e selecionar evidências pertinentes à consulta realizada. Nesse aspecto, o Modelo Gemma 3 (12B) mostrou-se mais robusto e confiável, apresentando menor incidência de respostas incorretas decorrentes de recuperação inadequada de informações e maior aderência ao conhecimento efetivamente disponível na base documental.
+Os resultados obtidos indicam que a qualidade de um sistema baseado em RAG não depende exclusivamente do desempenho do modelo de linguagem, mas também de sua capacidade de interpretar corretamente o contexto recuperado e selecionar evidências pertinentes à consulta realizada. Nesse aspecto, o Modelo Gemma 4 (12B) mostrou-se mais robusto e confiável, apresentando menor incidência de respostas incorretas decorrentes de recuperação inadequada de informações e maior aderência ao conhecimento efetivamente disponível na base documental.
 </p>
 
 
-####   <p align="justify">Em síntese, a análise evidencia que, embora ambos os modelos tenham sido capazes de responder à maioria das questões propostas, o Modelo Gemma 3 (12 B) apresentou desempenho melhor em termos de precisão, contextualização e confiabilidade das respostas, enquanto o Modelo  Gemma 3 (4B) apresentou maior suscetibilidade à utilização de informações irrelevantes e à falha na identificação de conteúdos existentes na base de conhecimento. Esses resultados reforçam a importância de avaliar não apenas a capacidade generativa dos LLMs, mas também sua eficiência na integração com mecanismos de recuperação de informações em cenários RAG. 
+####   <p align="justify">Em síntese, a análise evidencia que, embora ambos os modelos tenham sido capazes de responder à maioria das questões propostas, o Modelo Gemma 4 (12 B) apresentou desempenho melhor em termos de precisão, contextualização e confiabilidade das respostas, enquanto o Modelo  Gemma 3 (4B) apresentou maior suscetibilidade à utilização de informações irrelevantes e à falha na identificação de conteúdos existentes na base de conhecimento. Esses resultados reforçam a importância de avaliar não apenas a capacidade generativa dos LLMs, mas também sua eficiência na integração com mecanismos de recuperação de informações em cenários RAG. 
 </p>
 
 
-####   <p align="justify">Outro ponto relevante que a análise evidenciou sobre os dados coletados por meio do LangSmith foi que o aumento do número de parâmetros impacta diretamente a latência dos modelos avaliados. Os valores médios obtidos, de 16,15 segundos para o Modelo Gemma 3 (4B) e 88,77 segundos para o Modelo Gemma 3(12B), confirmam a influência do porte do modelo sobre o desempenho computacional da solução RAG, fornecendo subsídios importantes para a escolha do modelo mais adequado de acordo com os requisitos de tempo de resposta e qualidade esperados pela aplicação.
+####   <p align="justify">Outro ponto relevante que a análise evidenciou sobre os dados coletados por meio do LangSmith foi que o aumento do número de parâmetros impacta diretamente a latência dos modelos avaliados. Os valores médios obtidos, de 16,15 segundos para o Modelo Gemma 3 (4B) e 88,77 segundos para o Modelo Gemma 4(12B), confirmam a influência do porte do modelo sobre o desempenho computacional da solução RAG, fornecendo subsídios importantes para a escolha do modelo mais adequado de acordo com os requisitos de tempo de resposta e qualidade esperados pela aplicação.
 </p>
 
 
