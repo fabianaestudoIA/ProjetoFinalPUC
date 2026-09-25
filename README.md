@@ -62,7 +62,7 @@ A estratégia de sobreposição adotada visa preservar o contexto semântico ent
 </p>
 <p align="justify">
   
-#### Após a segmentação dos documentos, foi realizada a etapa de vetorização dos dados textuais por meio da geração de embeddings. Para essa finalidade, optou-se pela utilização do modelo all-MiniLM-L6-v2, disponibilizado pela biblioteca Sentence Transformers. A escolha desse modelo foi motivada pelo seu equilíbrio entre eficiência computacional e qualidade semântica das representações vetoriais geradas.
+#### Após a segmentação dos documentos, foi realizada a etapa de vetorização dos dados textuais por meio da geração de embeddings. Para essa finalidade, optou-se pela utilização do modelo all-MiniLM-L6-v2, disponibilizado pela biblioteca Sentence Transformers hospedado no Hugging Face. A escolha desse modelo foi motivada pelo seu equilíbrio entre eficiência computacional e qualidade semântica das representações vetoriais geradas.
 </p>
 <p align="justify">
 Os embeddings são representações numéricas densas dos textos, capazes de capturar relações semânticas e contextuais entre palavras, frases e documentos. Diferentemente de métodos tradicionais de busca baseados apenas em correspondência lexical, a utilização de embeddings permite que consultas semanticamente semelhantes sejam associadas a conteúdos relevantes, mesmo quando não há coincidência exata entre os termos utilizados.
